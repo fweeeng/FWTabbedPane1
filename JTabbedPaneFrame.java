@@ -20,6 +20,12 @@ public class JTabbedPaneFrame extends JFrame
     panel1.add(label1);
     tabPane.addTab("Tab One", null, panel1, "FirstPanel");
 
+    //add second tab
+    JLabel label2 = new JLabel("Other stuff...", SwingConstants.CENTER);
+    JPanel panel2 = new JPanel();
+    panel2.add(label2);
+    tabPane.addTab("Tab Two", null, panel2, "SecondPanel");
+
     
 
     //keep this at the bottom
